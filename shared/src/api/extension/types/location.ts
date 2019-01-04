@@ -16,7 +16,11 @@ export class Location implements sourcegraph.Location {
 
     public readonly range?: sourcegraph.Range
 
-    constructor(public readonly uri: sourcegraph.URI, rangeOrPosition?: sourcegraph.Range | sourcegraph.Position) {
+    constructor(
+        public readonly uri: sourcegraph.URI,
+        rangeOrPosition?: sourcegraph.Range | sourcegraph.Position,
+        public readonly context?: sourcegraph.ContextValues
+    ) {
         if (!rangeOrPosition) {
             // that's OK
         } else if (rangeOrPosition instanceof Range) {
@@ -32,6 +36,7 @@ export class Location implements sourcegraph.Location {
         return {
             uri: this.uri,
             range: this.range,
+            context: this.context,
         }
     }
 }
