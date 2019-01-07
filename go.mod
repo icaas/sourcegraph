@@ -81,7 +81,7 @@ require (
 	github.com/kr/text v0.1.0
 	github.com/kylelemons/godebug v0.0.0-20170820004349-d65d576e9348
 	github.com/lib/pq v1.0.0
-	github.com/lightstep/lightstep-tracer-go v0.15.4
+	github.com/lightstep/lightstep-tracer-go v0.15.6
 	github.com/mattn/go-sqlite3 v1.10.0 // indirect
 	github.com/mattn/goreman v0.2.1-0.20180930133601-738cf1257bd3
 	github.com/microcosm-cc/bluemonday v1.0.1
@@ -134,7 +134,7 @@ require (
 	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4
 	golang.org/x/sys v0.0.0-20190107174137-20be8e55dc7b
 	golang.org/x/time v0.0.0-20190104202802-85acf8d2951c
-	golang.org/x/tools v0.0.0-20190107164406-e063def13b29
+	golang.org/x/tools v0.0.0-20181221235234-d00ac6d27372
 	google.golang.org/api v0.1.0 // indirect
 	google.golang.org/appengine v1.4.0 // indirect
 	gopkg.in/alexcesaro/statsd.v2 v2.0.0 // indirect
